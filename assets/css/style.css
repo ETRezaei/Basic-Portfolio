@@ -1,0 +1,56 @@
+
+#gallerycontainer,
+.container  {   
+    margin: 100px;
+}
+ 
+.pictext {
+    display: flex;
+}
+
+#emi {
+    display: inline-block;
+}
+/* #box1 {
+    float: left;
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    background: lightgray;
+}   */
+#pic {
+    float: left;
+    margin-right: 15px;
+}  
+#masterportfoloio{
+    position: relative;
+}
+
+#hangman{
+    position: absolute;
+    width: 400px;
+    left: 20px;
+    top: 20px;
+
+}
+
+#hangmanlinkholder, #rpggamelinkholder{
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    width: inherit;
+    height: 40px;
+    margin-bottom:0;
+    background: rgb(22, 216, 71)
+}
+#hanglink, #rpggamelink{
+    color: red;
+
+}
+#rpggame{
+    position: absolute;
+    width: 400px;
+    top: 20px; 
+    right: -20px; 
+}
+
