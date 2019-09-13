@@ -5,23 +5,32 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <div id="contactcontainer">
-            <h1>Emi Rezaei</h1>
-            <p align="right">
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
+    <div class="homecontainer">
+        <header class="homehead">
+            <div class="nameholder"><h3>Emi Rezaei</h3></div>
+            <p class="links" align="right">
+                <a href="index.html">About</a>
+                <a class="border" href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
             </p>  
-            <h1>Contact</h1>
-            <hr>
-            <h2>Name</h2>
-            <input type="text" name="name" value="John Smith">
-            <h2>Email</h2>
-            <input type="text" name="email" value="example.@gmail.com">
-            <h2>Message</h2>
-            <input type="text" name="message" >
-            <br>
-            <button>Submit</button>
+        </header>
+        
+        <div class="content">   
+                <section class="box1">      
+                <h2>Contact</h2>
+                <hr>
+            
+                <h2>Name</h2>
+                <input type="text" name="name" value="John Smith">
+                <h2>Email</h2>
+                <input type="text" name="email" value="example.@gmail.com">
+                <h2>Message</h2>
+                <input id="message" type="text" name="message" >
+                <br>
+                <button>Submit</button>
+            </section> 
+                <footer>@copyright Emi Rezaei 2019</footer>
+        </div>
     </div>
 </body>
 </html>
