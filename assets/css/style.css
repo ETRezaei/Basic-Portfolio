@@ -13,6 +13,20 @@ body{
     font-family: 'Rubik', sans-serif;
         
 }
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%; 
+  height: 100%;
+  width: auto;
+}
 
 
 #wrapper{
@@ -56,10 +70,14 @@ body{
 #global-navi{
     float: right;
     margin-top: 20px;
+ 
      /* display: inline-block; */
    /* position: absolute;
     right:  100px;
     top: 10px; */
+}
+.nav{
+    color: #1c2a48;
 }
 #header li{
     float: left;
@@ -152,11 +170,13 @@ hr{
     width: 250px;
     height: 20px;
     margin-bottom:0;
-    background: rgb(22, 216, 71);
+    background: rgb(10, 80, 28);
     
     
 }
-
+.white-font{
+    color: white;
+}
 
 .col-portfolio{
     width: 150px;
@@ -286,6 +306,7 @@ input{
     input{
         width: auto;
     }
+    
 
 }
 
